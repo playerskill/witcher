@@ -1,0 +1,43 @@
+
+
+body{
+font-size: 24px;
+background-image: url(../img/background.jpg);
+background-repeat: repeat-y;
+background-size: 100%;
+cursor: url('../img/cursor.png'), default;
+}
+.wrapper{
+width: 1300px;
+margin: 0 auto;
+}
+.header{
+font-family: 'Rubik Mono One', sans-serif;
+margin-top: 40px;
+font-size: 23px;
+text-align: center;
+}
+.footer{
+text-align: center;
+color: white;
+}
+.history-wrapper{
+height: 450px;
+opacity: 0.8;
+border-radius: 10px;
+background-color: white;
+margin-top: 80px;
+display: flex;
+flex-direction: row;
+}
+.nav-link{
+color: white;
+text-decoration: none;
+margin-left: 29px;
+}
+.logo{
+width: 50%;
+}
+.nav-link:hover{
+color: #5a0212;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body{
+font-size: 24px;
+background-image: url(../img/musicBack.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+cursor: url('../img/cursor.png'), default;
+}
+.wrapper{
+width: 1300px;
+margin: 0 auto; 
+}
+.header{
+font-family: 'Rubik Mono One', sans-serif;
+margin-top: 40px;
+font-size: 23px;
+text-align: center;
+}
+.logo{
+width: 50%;
+}
+.nav-link{
+color: #3b3b3b;
+text-decoration: none;
+margin-left: 29px;
+}
+.nav-link:hover{
+color: #5a0212;
+}
+.section-music{
+text-align: center;
+opacity: 0.7;
+color: white;
+margin-top: 100px;
+}
+.audio-item{
+display: flex;
+border-bottom: 1px solid #fff;
+flex-direction: row;
+justify-content: space-around;
+}
+audio{
+width: 450px;
+align-self: center;
+}
+.footer{
+text-align: center;
+color: white;
+}
+.music-wrapper{
+flex-direction: column;
+justify-content: space-between;
+display: flex;
+}
+.authors{
+width: 10%;
+}
